@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maryen E. Borabo - Creative Developer & Designer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header id="navbar">
+    <nav class="container">
+      <div class="nav-content">
+        <button class="nav-brand" onclick="scrollToSection('hero')">
+          Maryen E. Borabo
+        </button>
+        
+        <div class="nav-links" id="navLinks">
+          <a href="#about" onclick="scrollToSection('about')">About</a>
+          <a href="#work" onclick="scrollToSection('work')">Work</a>
+          <a href="#education" onclick="scrollToSection('education')">Education</a>
+          <a href="#contact" onclick="scrollToSection('contact')">Contact</a>
+          
+          <div class="social-links">
+            <a href="https://www.facebook.com/mayen.borabo" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/maryen-borabo-254140389/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+            <a href="https://github.com/Maryen-28" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+          <svg class="menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+          <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <video class="hero-video" autoplay loop muted playsinline poster="https://c.animaapp.com/mieex6k8bpfyAe/img/ai_1-poster.png">
+      <source src="https://c.animaapp.com/mieex6k8bpfyAe/img/ai_1.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title fade-in">Maryen E. Borabo</h1>
+      <p class="hero-subtitle fade-in-delay-1">Creative Developer & Designer</p>
+      <p class="hero-description fade-in-delay-2">Crafting digital experiences that inspire and engage</p>
+      <button class="hero-btn fade-in-delay-3" onclick="scrollToSection('work')">
+        View My Work
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="12" y1="5" x2="12" y2="19"></line>
+          <polyline points="19 12 12 19 5 12"></polyline>
+        </svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>I'm a passionate creative professional with over 3 years of experience in digital design and development. My work combines technical expertise with artistic vision to create memorable digital experiences.</p>
+          <p>I specialize in building modern, accessible, and performant web applications that put users first. My approach is rooted in understanding business goals and translating them into elegant solutions.</p>
+        </div>
+        <div class="about-image">
+          <img src="https://c.animaapp.com/mieex6k8bpfyAe/img/7c6dca53-cfa3-40fc-a6d0-eda9ca36042e.jpeg" alt="Maryen E. Borabo" loading="lazy">
+        </div>
+      </div>
+
+      <div class="skills-section">
+        <h3>Key Skills & Tools</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <polyline points="16 18 22 12 16 6"></polyline>
+              <polyline points="8 6 2 12 8 18"></polyline>
+            </svg>
+            <span>Frontend Development</span>
+            <p>HTML, CSS, JavaScript</p>
+          </div>
+          <div class="skill-card">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+              <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+              <line x1="6" y1="6" x2="6.01" y2="6"></line>
+              <line x1="6" y1="18" x2="6.01" y2="18"></line>
+            </svg>
+            <span>Backend Development</span>
+            <p>PHP, Node.js</p>
+          </div>
+          <div class="skill-card">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+              <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+              <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+            </svg>
+            <span>Database Development</span>
+            <p>XAMPP MySQL</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="work" class="projects-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Featured Work</h2>
+        <p>A selection of recent projects showcasing my skills in design, development, and problem-solving.</p>
+      </div>
+
+      <div class="projects-grid">
+        <a href="https://ecommercepage-jade.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-card">
+          <div class="project-image">
+            <img src="https://c.animaapp.com/mieex6k8bpfyAe/img/ai_3.png" alt="E-commerce Platform" loading="lazy">
+            <div class="project-overlay">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>E-commerce Platform</h3>
+            <p>A modern e-commerce solution with seamless shopping experience, secure payment integration, and responsive design for all devices.</p>
+          </div>
+        </a>
+
+        <a href="https://mabini-tourism-landing-page.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-card">
+          <div class="project-image">
+            <img src="https://c.animaapp.com/mieex6k8bpfyAe/img/ai_4.png" alt="Mabini Tourism Landing Page" loading="lazy">
+            <div class="project-overlay">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Mabini Tourism Landing Page</h3>
+            <p>An engaging tourism website showcasing the beauty of Mabini with interactive maps, stunning visuals, and comprehensive travel information.</p>
+          </div>
+        </a>
+
+        <a href="https://online-ordering-system-five.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-card">
+          <div class="project-image">
+            <img src="https://c.animaapp.com/mieex6k8bpfyAe/img/ai_5.png" alt="Online Ordering System" loading="lazy">
+            <div class="project-overlay">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Online Ordering System</h3>
+            <p>A streamlined ordering platform featuring real-time order tracking, intuitive menu navigation, and efficient checkout process.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="education-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Education</h2>
+        <p>My educational journey and academic achievements.</p>
+      </div>
+
+      <div class="education-timeline">
+        <div class="timeline-item">
+          <div class="timeline-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+              <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+            </svg>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Batangas State University</h3>
+              <span class="timeline-year">2023 - Present</span>
+            </div>
+            <p class="timeline-degree">TNEU-Mabini Campus</p>
+            <p class="timeline-description">Currently pursuing higher education with outstanding academic performance. Dean's Lister</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+              <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+            </svg>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Bauan Technical Integrated High School</h3>
+              <span class="timeline-year">2021 - 2023</span>
+            </div>
+            <p class="timeline-degree">Senior High School</p>
+            <p class="timeline-description">Completed senior high school education with focus on technical and academic excellence.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+              <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+            </svg>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Bauan Technical Integrated High School</h3>
+              <span class="timeline-year">2017 - 2020</span>
+            </div>
+            <p class="timeline-degree">Junior High School</p>
+            <p class="timeline-description">Completed junior high school education with consistent academic excellence. With Honors</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+              <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+            </svg>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>San Andres Elementary School</h3>
+              <span class="timeline-year">2016 - 2017</span>
+            </div>
+            <p class="timeline-degree">Elementary School</p>
+            <p class="timeline-description">Completed elementary education with strong academic foundation. With Honors</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Get In Touch</h2>
+        <p>Have a project in mind? Let's work together to bring your ideas to life.</p>
+      </div>
+
+      <div class="contact-grid">
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required placeholder="Your message..."></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+          <h3>Connect With Me</h3>
+          <div class="contact-links">
+            <a href="mailto:maryenborabo53@gmail.com" class="contact-link">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <div>
+                <p class="contact-label">Email</p>
+                <p class="contact-text">maryenborabo53@gmail.com</p>
+              </div>
+            </a>
+
+            <a href="https://www.facebook.com/mayen.borabo" target="_blank" rel="noopener noreferrer" class="contact-link">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+              <div>
+                <p class="contact-label">Facebook</p>
+                <p class="contact-text">Connect on Facebook</p>
+              </div>
+            </a>
+
+            <a href="https://www.linkedin.com/in/maryen-borabo-254140389/" target="_blank" rel="noopener noreferrer" class="contact-link">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+              <div>
+                <p class="contact-label">LinkedIn</p>
+                <p class="contact-text">Connect on LinkedIn</p>
+              </div>
+            </a>
+
+            <a href="https://github.com/Maryen-28" target="_blank" rel="noopener noreferrer" class="contact-link">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+              <div>
+                <p class="contact-label">GitHub</p>
+                <p class="contact-text">View GitHub Profile</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Maryen E. Borabo. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
